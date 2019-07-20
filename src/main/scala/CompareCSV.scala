@@ -18,7 +18,11 @@ object CompareCSV {
 
     trait Row
 
-    trait DFrame[A]
+    trait Table
+
+    trait DFrame[A] {
+
+    }
 
     trait CompareF[A]
 
