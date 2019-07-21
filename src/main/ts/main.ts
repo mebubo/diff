@@ -92,16 +92,3 @@ function diff(r1: Row, r2: Row, col: Column): number {
     }
     return 0
 }
-
-class Order {
-    constructor(public id: number, public name: string, public paid: boolean) {}
-}
-
-type Order2 = {id: number, name: string, paid: boolean}
-
-const o = new Order(1, "foo", true)
-o.id = 2
-
-interface Runnable<A, B> {
-    run(a: A): B
-}

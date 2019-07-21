@@ -1,2 +1,7 @@
-1,foo,true
-2,bar,false
+1,foo,true,2.44
+2,bar,false,5345.0
+3,baz,false,-9
+4,baz,false,-9
+5,baz,false,-9
+50,baz,false,-9
+52,baz,false,-9

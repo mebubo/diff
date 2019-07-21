@@ -35,7 +35,4 @@ object GetPutFree {
 
     val result: Option[String] = Free.foldMap(interpret).apply(double("foo"))
 
-    def main(args: Array[String]): Unit = {
-        println(result.toString)
-    }
 }
